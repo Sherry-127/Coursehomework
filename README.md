@@ -16,7 +16,7 @@ This is the repository for storing homework of Computer course.
 
 [作业2-中国地图链接]()  
 
-1）创立一个excel表格，记录了全球各地海底捞门店数量（虚构）  
+1）创立一个excel表格，记录了全球各地喜茶门店数量（虚构）  
 
 2）提取excel表格中数据，利用pyecharts库生成世界地图和对应数据  
 
@@ -25,9 +25,9 @@ This is the repository for storing homework of Computer course.
 ## 3.组合图表
 作业3描述：  
 
-1）  
+1）该组合图主要描述了喜茶的市场经营状况，其中包括喜茶2023年3月每日的销售量；喜茶与奈雪的茶的月度销售额对比等
 
-2）  
+2）该部分数据均为虚构，也可以通过excel抽取 
 
 [作业3链接]()
 
