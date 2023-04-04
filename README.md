@@ -6,7 +6,7 @@ This is the repository for storing homework of Computer course.
 作业1描述：  
 选择了《2023年政府工作报告》作为作业分析的长文本，非地名的名词为统计词频的类型，最终输出词云
 
-[作业1链接]()
+[作业1链接](https://github.com/Sherry-127/Coursehomework1.github.io/blob/main/%E4%B8%96%E7%95%8C%E5%9C%B0%E5%9B%BE.html)
 
 ## 2.作业2：中国地图、世界地图
 作业2描述：  
