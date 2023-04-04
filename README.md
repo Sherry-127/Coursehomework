@@ -9,11 +9,15 @@ This is the repository for storing homework of Computer course.
 
 ## 2.作业2：中国地图、世界地图
 作业2描述：
-step1：创立一个excel表格，记录了全国一线城市的喜茶门店数据（虚构）
-step2：提取excel表格中数据，利用pyecharts库生成中国地图和对应数据
+step1：创立一个excel表格，记录了全国一线城市的喜茶门店数据（虚构）  
+
+step2：提取excel表格中数据，利用pyecharts库生成中国地图和对应数据  
+
 [作业2-中国地图链接]()
-step1：创立一个excel表格，记录了全球各地海底捞门店数量（虚构）
-step2：提取excel表格中数据，利用pyecharts库生成世界地图和对应数据
+step1：创立一个excel表格，记录了全球各地海底捞门店数量（虚构）  
+
+step2：提取excel表格中数据，利用pyecharts库生成世界地图和对应数据  
+
 [作业2-世界地图链接]()
 
 ## 3.组合图表
