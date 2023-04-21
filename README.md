@@ -6,7 +6,8 @@ Hello, welcome to my homepage! This home page is mainly used to store coursework
 ## Coursehomework 计算机科学与编程入门课程第二次作业 0423
 ### 1.作业1：搜索引擎功能实现  
 - **本次作业要求使用文本编辑器，用html设计一个网页；页面包含输入框、按钮和一些介绍文字，实现某个搜索引擎的搜索功能**  
-  - 我选择Bing作为所选择的搜索引擎，只要顺利找到name和action的形式即可  
+  - 我选择Bing作为所选择的搜索引擎，只要顺利找到name和action的形式即可    
+  
 - **在实际完成作业时，为了使得该网页更加美观，我对CSS设置格式部分进行了研究，其中也遇到了有趣的问题，比如：**
   - 在设置颜色时因为多加了“”导致颜色始终为黑色
   - 由于缺失>导致网页整体紊乱等
