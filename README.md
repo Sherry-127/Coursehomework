@@ -15,7 +15,7 @@ Hello, welcome to my homepage! This home page is mainly used to store coursework
   - 由于缺失>导致网页整体紊乱等
   - 表单form的美观似乎比较困难，查询了很多资料，因为害怕bootstrap的template不能兼容因此没有直接使用
   
-[作业2-1搜索引擎连接](https://sherry-127.github.io/homework2-1_my_bing.html)
+[作业2-1搜索引擎](https://sherry-127.github.io/homework2-1_my_bing.html)
 
 ### 2.作业2：设计网页 
 - **作业要求使用文本编辑器，设计一个网页，内容自定；以文本为主，适量配图；用CSS进行美化**  
@@ -28,6 +28,10 @@ Hello, welcome to my homepage! This home page is mainly used to store coursework
 - **遇到的问题：**
   - 试图对左分栏下面的“其他创作者”进行超链接，但是超链接后分栏的格式无法持续
   - 左分栏中的图片不知道如何调整使得其居中
+  - 试图使得两张右边的图片可以并列并且设置相同的高，使得其看起来更加整齐等
+  - 还有好多问题总之还是花了很长时间= =
+  
+[作业2-2文本网页](https://sherry-127.github.io/homework2-2_text.html)
 
 ## Coursehomework 计算机科学与编程入门课程第一次作业 0405
 ### 1.作业1：词频统计图可视化
