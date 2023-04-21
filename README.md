@@ -14,6 +14,8 @@ Hello, welcome to my homepage! This home page is mainly used to store coursework
   - 在设置颜色时因为多加了“”导致颜色始终为黑色
   - 由于缺失>导致网页整体紊乱等
   - 表单form的美观似乎比较困难，查询了很多资料，因为害怕bootstrap的template不能兼容因此没有直接使用
+  
+[作业2-1搜索引擎连接](https://sherry-127.github.io/homework2-1_my_bing.html)
 
 ## Coursehomework 计算机科学与编程入门课程第一次作业 0405
 ### 1.作业1：词频统计图可视化
