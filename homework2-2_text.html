@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sherry的主页</title>
+<meta charset="UTF-8">
+
+<style>
+/* 假如您需要并排放置两个带边框的框，可通过将 box-sizing 设置为 "border-box"。这可令浏览器呈现出带有指定宽度和高度的框，并把边框和内边距放入框中 */
+* {
+    box-sizing: border-box;
+}
+
+/* body 样式 */
+body {
+    font-family: 楷体;
+    margin: 0;
+}
+
+/* 标题 */
+.header {
+    padding: 120px;
+    text-align: center;
+    background-image:url(./qianxun.jpg);
+	backgroud-size:100%;
+    color: white;
+	font-weight:bold;
+}
+
+/* 标题字体加大 */
+.header h1 {
+    font-size: 60px;
+}
+
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color:#008080;
+}
+
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* 创建两个列 */
+/* 边栏 */
+.side {
+    -ms-flex: 35%; /* IE10 */
+    flex: 35%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* 主要的内容区域 */
+.main {   
+    -ms-flex: 65%; /* IE10 */
+    flex: 65%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* 测试图片 */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* 底部 */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* 图片居中 */
+.img {
+	
+	left: 50%;
+	top: 50%;
+	}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>千与千寻的奇妙世界</h1>
+  <h3 style="background:azure;color:black">奇幻之旅。</h3>
+</div>
+
+<div class="navbar">
+  <a href="https://baike.baidu.com/item/%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB/389041">百度百科</a>
+  <a href="https://movie.douban.com/subject/1291561/">豆瓣评分</a>  
+  <a href="https://www.fqfun.com/fandetail/2654/" class="right">立即观看</a>
+</div>
+
+<div class="row">
+  <div class="side">
+      <h2>关于创作者</h2>
+      <h4>宫崎骏</h4>
+      
+      <div class="img"><img src="./gqj.jpg" alt="无法显示"style="height:250px;"></div>
+      <br>
+      <p>宫崎骏，1941年1月5日出生于日本东京都文京区，日本动画师、动画制作人、漫画家、动画导演、动画编剧。毕业于日本东京学习院大学政治经济部。1985年与高田勋、铃木敏夫共同创立吉卜力工作室。1986年执导《天空之城》，该片获得第41回每日电影奖大藤信郎赏等6项大奖。1988年执导《龙猫》，该片荣获第13回报知电影奖最佳导演奖等24项大奖。1997年执导《幽灵公主》，该片荣获第21届日本电影学院奖最佳影片奖等27项大奖。2001年执导《千与千寻》，该片荣获第75届奥斯卡金像奖最佳动画长片奖、第52届柏林国际电影节金熊奖等9项大奖。</p>
+      <br><h2>其他相关人物</h2>
+      <div><h3 style="background:azure;color:#483D8B">铃木敏夫</h3></div>
+      <div><h3 style="background:#B0E0E6;color:black">柊瑠美</h3></div>
+      <div><h3 style="background:#E6E6FA;color:#4B0082">久石让</h3></div>
+  </div>
+  <div class="main">
+      <h1>千与千寻的神隐</h1>
+      <h3>令人感动的故事</h3>
+	  <div>
+	  <table><tr><td>
+      <img src="qyqx4.jpg" alt="无法显示" style="height:200px;" border=0></td><td>
+	  <img src="qyqx2.jpg" alt="无法显示" style="height:200px;" border=0></td></tr></table>
+	  </div>
+      <p>在宫崎骏的《千与千寻》中，我看到了两个截然不同的故事。第一个故事，关于如何在物欲横流的世界，保持内心的干净。它让我想起法国诗意现实主义剧作家普莱卫说过的一句话：
+生活的信心只有在超越种种磨难之外，在与儿童目光的相接中获得。说得多好啊。
+看到这句话，我才恍然明白了《千与千寻》。
+它讲述的是一个孩子的冒险，却给了我这个成人某种生活的信心。
+这种信心，就来自孩子清澈的眼光，来自一种未经世事的无畏和诚实。</p>
+      <img src="qyqx1.jpg" alt="无法显示" style="height:200px;" border=0></td><td>
+	  <img src="qyqx3.jpg" alt="无法显示" style="height:200px;" border=0></td></tr></table>
+	  <p>于是，小镇里发生的一切，在顷刻间，变的纯粹。那是一种莫名的牵绊，是不愿长大的执念，也是终将离开的过往。还记得《少年Pi的奇幻漂流》里，那句动人的旁白：
+人生就是不断地放下、前行，但遗憾的是，我们总来不及好好告别。
+在经历了一场比《少年Pi》还要奇幻地冒险后，千寻终于迎来了与童年作别的时刻。
+只见，在波涛散去的平原上，回家的路就在前方，白龙对千寻说：“去吧，记住，一定不要回头！”
+两人就此分手。那一刻，碧空如洗，有大片的流云飘过，千寻踏过青草与沟壑，穿过隧道，在现实世界里和父母团聚。
+
+而白龙的话，还在耳边回响：“不要回头！不要回头！”</p>
+	  </div>
+      
+     
+  </div>
+</div>
+
+<div class="footer">
+  <h2>感谢浏览</h2>
+</div>
+
+</body>
+</html>
