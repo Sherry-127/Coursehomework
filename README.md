@@ -24,7 +24,6 @@ Hello, welcome to my homepage! This home page is mainly used to store coursework
   - 我选择设计一个介绍《千与千寻的神隐》的分栏网页，分栏部分的代码参考菜鸟教程的template，文字部分设计由css完成。整体版面可以分成header（标题）、导航栏（可以跳转到其他的网页）、文字图片介绍栏目、foot一共四个部分。
   - 我在设计该网页的时候参考了菜鸟教程与w3school的相关模板，并运用课上知识对文字、图片进行了美化
    
-
 - **遇到的问题：**
   - 试图对左分栏下面的“其他创作者”进行超链接，但是超链接后分栏的格式无法持续
   - 左分栏中的图片不知道如何调整使得其居中
@@ -32,6 +31,16 @@ Hello, welcome to my homepage! This home page is mainly used to store coursework
   - 还有好多问题总之还是花了很长时间= =
   
 [作业2-2文本网页](https://sherry-127.github.io/homework2-2_text.html)
+
+### 3.作业3：共现图  
+- **作业要求选一部著作，可以是之前分析词频的作品，分析人物（或其他关键词）“共现”，生成关系图。并用本次课学到的网页设计技术，设计一个简单的网页，放置关系图和相关说明**  
+  - 我选择《天龙八部》作为本次分析人物共现的著作（出于个人爱好）
+  - 由于作业2耗费了大量精力因此作业3的页面设计就粗糙一点好了（金庸老爷子对不起）    
+
+  
+[作业2-3人物共现](https://sherry-127.github.io/homework2-3_cooccur.html)
+
+
 
 ## Coursehomework 计算机科学与编程入门课程第一次作业 0405
 ### 1.作业1：词频统计图可视化
