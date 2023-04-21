@@ -5,7 +5,7 @@ Hello, welcome to my homepage! This home page is mainly used to store coursework
 
 ## Coursehomework 计算机科学与编程入门课程第二次作业 0423
 ### 1.作业1：搜索引擎功能实现  
-- **本次作业要求使用文本编辑器，用html设计一个网页；页面包含输入框、按钮和一些介绍文字，实现某个搜索引擎的搜索功能**  
+- **作业要求使用文本编辑器，用html设计一个网页；页面包含输入框、按钮和一些介绍文字，实现某个搜索引擎的搜索功能**  
   - 我选择Bing作为所选择的搜索引擎，只要顺利找到name和action的形式即可    
   - 对form表单和文字使用CSS进行了美化，包括font-size,font,font-family,color等，包括form的border-width等
   - 对搜索引擎增加了背景图片使得其更加好看
@@ -16,6 +16,12 @@ Hello, welcome to my homepage! This home page is mainly used to store coursework
   - 表单form的美观似乎比较困难，查询了很多资料，因为害怕bootstrap的template不能兼容因此没有直接使用
   
 [作业2-1搜索引擎连接](https://sherry-127.github.io/homework2-1_my_bing.html)
+
+### 2.作业2：设计网页 
+- **作业要求使用文本编辑器，设计一个网页，内容自定；以文本为主，适量配图；用CSS进行美化**  
+  - 使用文本编辑器，设计一个网页，内容自定；以文本为主，适量配图；用CSS进行美化
+  - 我在设计该网页的时候参考了菜鸟教程与w3school的相关模板，并运用课上知识对文字、图片进行了美化
+    - 对
 
 ## Coursehomework 计算机科学与编程入门课程第一次作业 0405
 ### 1.作业1：词频统计图可视化
